@@ -1,4 +1,4 @@
-div, header, footer, aside, article {
+header, footer, article, main{
     border: 2px solid #D6001C;
     border-radius: 12px;
     margin: 10px;
@@ -11,9 +11,6 @@ body{
     text-align: left;
 }
 
-.container {
-padding: 10px;
-}
 
 h2 {
     text-align: center;
