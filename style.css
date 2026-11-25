@@ -1,0 +1,114 @@
+div, header, footer, aside, article {
+    border: 2px solid #D6001C;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 10px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: left;
+}
+
+.container {
+padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    border: none;
+}
+
+header {
+    background-image: url(img/snow_winter_trees.jpg);
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid red;
+}
+
+nav img {
+    margin: 0 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 4px;
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+header h1 {
+font-family: "Mountains of christmas", serif;
+font-size: 40px;
+border: none;
+color: #111;
+margin-top: 20px;
+}
+
+main{
+    display: flex;
+    margin-top: 10px;
+}
+
+content {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside {
+    width: 25%;
+    padding: 10px;
+    text-align: left;
+}
+
+article {
+    width: 75%;
+    padding: 15px;
+    text-align: left;
+}
+
+aside div {
+    border: 2px solid #D6001C;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+aside a {
+    display: block;
+    color: #0000EE;
+    text-decoration: underline;
+    margin: 6px 0;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    text-decoration: underline;
+    margin: 0;
+    text-align: center;
+}
+
+
